@@ -1,6 +1,6 @@
 {
   "name": "numachina",
-  "version": "0.0.6",
+  "version": "0.1.0-0",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -36,7 +36,7 @@
     "presets": [
       "@babel/preset-react"
     ]
-    },
+  },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/preset-react": "^7.10.4"
