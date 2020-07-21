@@ -1,7 +1,7 @@
 {
   "name": "numachina",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.5b",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -14,6 +14,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "publish:npm": "rm -rf dist && mkdir dist &&  babel src/ -d dist --copy-files",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -30,5 +31,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+    },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/preset-react": "^7.10.4"
   }
 }
