@@ -1,2 +1,2 @@
-import Foreground from "./dist/components/foreground";
+import Foreground from "../dist/components/foreground";
 export { Foreground };
